@@ -1,0 +1,12 @@
+==================
+Arduino SPP Sensor
+==================
+
+Simple controlling and data transmitting program using Bluetooth SPP.
+
+This project uses USB_Host_Shield_2.0 to driving Bluetooth USB Dongle.
+
+When Arduino receives "start\r" (or "stop\r") via BT connection,
+it starts (or stops) transmitting sensor data.
+
+Setup guide is available at http://zvislog.wordpress.com/topics/arduino-spp-with-zvl
